@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: nisfirstapp
+  host: nisfirstapp
+  disk_quota: 1024M
+  services:
+  - nisfirstapp-cloudantNoSQLDB
+  - nisfirstapp-iotf-service
